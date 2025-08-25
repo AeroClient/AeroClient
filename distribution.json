@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "formatVersion": 1,
+    "version": "1.0.0",
+    "description": "Aero Client distribution file (clean, no Helios)"
+  },
+  "versions": [
+    {
+      "id": "1.8.9",
+      "type": "release",
+      "time": "2015-12-09T12:00:00+00:00",
+      "releaseTime": "2015-12-09T12:00:00+00:00",
+      "mainClass": "net.minecraft.client.main.Main",
+      "assets": "legacy",
+      "libraries": [],
+      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type}"
+    },
+    {
+      "id": "1.21.8",
+      "type": "release",
+      "time": "2025-08-14T12:00:00+00:00",
+      "releaseTime": "2025-08-14T12:00:00+00:00",
+      "mainClass": "net.minecraft.client.main.Main",
+      "assets": "21",
+      "libraries": [],
+      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type}"
+    }
+  ],
+  "news": []
+}
